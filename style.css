@@ -1,4 +1,4 @@
-::root
+:root
 {
     --darkest: #2C3333;
     --dark: #395B64;
@@ -6,13 +6,26 @@
     --lightest: #E7F6F2;
 }
 
-
-body 
+body
 {
     margin: 0;
-    top: 0;
-    left: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--darkest);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1.25fr 3fr;
+}
+
+div
+{
+    box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background-color: var(--darkest);
+    background-color: var(--dark);
+    /*display: grid;*/
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-radius: 1vh;
 }
