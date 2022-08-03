@@ -1,14 +1,15 @@
 :root
 {
-    --darkest: #2C3333;
-    --dark: #395B64;
+    --darkest: #0E1010;
+    --dark: #2C3333;
+    --theme: #395B64;
     --light: #A5C9CA;
     --lightest: #E7F6F2;
 }
 
 ::-webkit-scrollbar 
 {
-    width: 2vw;
+    width: 1vw;
 }
   
 ::-webkit-scrollbar-track 
@@ -24,7 +25,7 @@
   
 ::-webkit-scrollbar-thumb:hover 
 {
-    background-color: var(--light);
+    background-color: var(--lightest);
 }
 
 * 
@@ -39,8 +40,8 @@
 body
 {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1.5fr 3fr;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 2fr 2fr 3fr;
 
     box-sizing: border-box;
     height: 100vh;
@@ -48,7 +49,7 @@ body
     margin: 0;
     padding: 0;
     
-    background-color: var(--darkest);
+    background-color: var(--dark);
 }
 
 span
@@ -62,7 +63,14 @@ span
     font-size: 8vh;
     font-family: sans-serif;
     font-weight: bolder;
-    color: var(--light);
+    color: var(--lightest);
+    animation: titleShadow 3s ease-in-out infinite alternate;
+}
+
+@keyframes titleShadow 
+{
+    0%   {text-shadow: -0.25vw 0 1.5vh var(--light);}
+    100% {text-shadow:  0.25vw 0 1.5vh var(--light);}
 }
 
 .container
@@ -81,20 +89,22 @@ span
     height: 40vh;
 
     border-radius: 2vh;
-    border-left: 0.75vh solid var(--lightest);
-    border-right: 0.75vh solid var(--lightest);
+    border-left: 0.75vh solid var(--light);
+    border-right: 0.75vh solid var(--light);
+    
 }
 
 .item
 {
     display: inline-grid;
     
-    height: 90%;
+    height: 80%;
     width: auto;
     aspect-ratio: 1;
 
-    margin: 2.5% 1vw;
+    margin: 2.5vh 1.5vw;
 
-    background-color: var(--dark);
+    background-color: var(--theme);
     border-radius: 2vh;
+    box-shadow: 0 1vh 5vh var(--darkest);
 }

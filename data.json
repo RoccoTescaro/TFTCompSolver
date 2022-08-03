@@ -1,0 +1,108 @@
+{
+    "Champions" :
+    [
+        {
+            "type" : "Champion",
+            "name" : "Atrox",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Shimmerscale" , "Warrior"],
+            "items" : ["Gargoyle Stoneplate", "Sunfire Cape", "Warmog's Armor"],
+            "cost" : 1
+        },
+
+        {
+            "type": "Champion",
+            "name" : "Anivia",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Jade" , "Evoker", "Legend"],
+            "items" : ["Archangel's Staff", "Morellonomicon", "Spear of Shojin"],
+            "cost" : 3
+        },
+
+        {
+            "type": "Champion",
+            "name" : "Ao Shin",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Tempest" , "Dragon"],
+            "items" : ["Archangel's Staff", "Hextech Gunblade", "Spear of Shojin"],
+            "cost" : 10
+        },        
+
+        {
+            "type": "Champion",
+            "name" : "Ashe",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Jade" , "Dragonmancer", "Swiftshot"],
+            "items" : ["Guinsoo's Rageblade", "Spear of Shojin", "Statikk Shiv"],
+            "cost" : 2
+        },      
+
+        {
+            "type": "Champion",
+            "name" : "Aurelion Sol",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Astral", "Evoker" , "Dragon"],
+            "items" : ["Archangel's Staff", "Hextech Gunblade", "Spear of Shojin"],
+            "cost" : 10
+        },  
+
+        {
+            "type": "Champion",
+            "name" : "Bard",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Guild" , "Mystic", "Bard"],
+            "items" : ["Chalice of Power", "Zeke's Herald", "Zephyr"],
+            "cost" : 5
+        },  
+
+        {
+            "type": "Champion",
+            "name" : "Braum",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Scalescorn" , "Guardian"],
+            "items" : ["Gargoyle Stoneplate", "Sunfire Cape", "Warmog's Armor"],
+            "cost" : 2
+        },  
+
+        {
+            "type": "Champion",
+            "name" : "Corky",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Revel" , "Cannoneer"],
+            "items" : ["Guinsoo's Rageblade", "Spear of Shojin", "Statikk Shiv"],
+            "cost" : 4
+        },  
+
+        {
+            "type": "Champion",
+            "name" : "Daeja",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Mirage" , "Dragon"],
+            "items" : ["Giant Slayer", "Guinsoo's Rageblade", "Quicksilver"],
+            "cost" : 8
+        },  
+
+        {
+            "type": "Champion",
+            "name" : "Diana",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Scalescorn", "Assassin"],
+            "items" : ["Frozen Heart", "Ionic Spark", "Sunfire Cape"],
+            "cost" : 3
+        },  
+
+        {
+            "type": "Champion",
+            "name" : "Elise",
+            "image" : "fillthiswithdotpngfile",
+            "class" : ["Whispers" , "ShapeShifter"],
+            "items" : ["Bloodthirster", "Guinsoo's Rageblade", "Quicksilver"],
+            "cost" : 3
+        }  
+    ],
+
+    "Items" :
+    [
+
+    ]
+}
