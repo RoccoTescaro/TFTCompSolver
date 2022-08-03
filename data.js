@@ -1,8 +1,7 @@
-{
+const data = {
     "Champions" :
     [
         {
-            "type" : "Champion",
             "name" : "Atrox",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Shimmerscale" , "Warrior"],
@@ -11,7 +10,6 @@
         },
 
         {
-            "type": "Champion",
             "name" : "Anivia",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Jade" , "Evoker", "Legend"],
@@ -20,7 +18,6 @@
         },
 
         {
-            "type": "Champion",
             "name" : "Ao Shin",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Tempest" , "Dragon"],
@@ -29,7 +26,6 @@
         },        
 
         {
-            "type": "Champion",
             "name" : "Ashe",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Jade" , "Dragonmancer", "Swiftshot"],
@@ -38,7 +34,6 @@
         },      
 
         {
-            "type": "Champion",
             "name" : "Aurelion Sol",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Astral", "Evoker" , "Dragon"],
@@ -47,7 +42,6 @@
         },  
 
         {
-            "type": "Champion",
             "name" : "Bard",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Guild" , "Mystic", "Bard"],
@@ -56,7 +50,6 @@
         },  
 
         {
-            "type": "Champion",
             "name" : "Braum",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Scalescorn" , "Guardian"],
@@ -65,7 +58,6 @@
         },  
 
         {
-            "type": "Champion",
             "name" : "Corky",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Revel" , "Cannoneer"],
@@ -74,7 +66,6 @@
         },  
 
         {
-            "type": "Champion",
             "name" : "Daeja",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Mirage" , "Dragon"],
@@ -83,7 +74,6 @@
         },  
 
         {
-            "type": "Champion",
             "name" : "Diana",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Scalescorn", "Assassin"],
@@ -92,7 +82,6 @@
         },  
 
         {
-            "type": "Champion",
             "name" : "Elise",
             "image" : "fillthiswithdotpngfile",
             "class" : ["Whispers" , "ShapeShifter"],
@@ -104,5 +93,10 @@
     "Items" :
     [
 
+    ],
+
+    "Traits" :
+    [
+        
     ]
-}
+};
