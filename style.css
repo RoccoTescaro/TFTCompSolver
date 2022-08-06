@@ -73,7 +73,7 @@ span
     100% {text-shadow:  0.25vw 0 1.5vh var(--light);}
 }
 
-.container
+#container
 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -105,6 +105,8 @@ span
     margin: 2.5vh 1.5vw;
 
     background-color: var(--theme);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     border-radius: 2vh;
     box-shadow: 0 1vh 5vh var(--darkest);
 }
